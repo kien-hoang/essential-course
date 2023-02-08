@@ -85,13 +85,27 @@ final class RemoteFeedLoaderTests: XCTestCase {
                              location: "a location",
                              imageURL: URL(string: "https://another-url.com")!)
         
-       
+        
         let items = [item1.model, item2.model]
         
         expect(sut, toCompleteWith: .success(items)) {
             let json = makeItemsJSON([item1.json, item2.json])
             client.complete(withStatusCode: 200, data: json)
         }
+    }
+    
+    func test_load_doesNotDeliverWhenSUTInstanceHasBeenDeallocated() {
+        let url = URL(string: "https://any-url.com")!
+        let client = HTTPClientSpy()
+        var sut: RemoteFeedLoader? = RemoteFeedLoader(url: url, client: client)
+        
+        var capturedResults: [RemoteFeedLoader.Result] = []
+        sut?.load { capturedResults.append($0) }
+        
+        sut = nil
+        client.complete(withStatusCode: 200, data: makeItemsJSON([]))
+        
+        XCTAssertTrue(capturedResults.isEmpty)
     }
     
     // MARK: - Helpers
