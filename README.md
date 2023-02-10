@@ -1,4 +1,3 @@
-
 # Essential App Case Study
 
 
