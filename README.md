@@ -1,5 +1,5 @@
 
-[![CI](https://github.com/kien-hoang/essential-feed-case-study/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/kien-hoang/essential-feed-case-study/actions/workflows/CI.yml)
+![](https://github.com/kien-hoang/essential-feed-case-study/workflows/CI/badge.svg)
 
 # Essential App Case Study
 
