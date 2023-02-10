@@ -1,3 +1,6 @@
+
+[![CI](https://github.com/kien-hoang/essential-feed-case-study/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/kien-hoang/essential-feed-case-study/actions/workflows/CI.yml)
+
 # Essential App Case Study
 
 
