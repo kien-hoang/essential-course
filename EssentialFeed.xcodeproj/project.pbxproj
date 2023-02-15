@@ -22,6 +22,7 @@
 		134F7F972995E9900083D245 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13486CEF298CC9BD00D5B54E /* EssentialFeed.framework */; };
 		137B6EE8299C8E9E00DAC906 /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B6EE7299C8E9E00DAC906 /* CacheFeedUseCaseTests.swift */; };
 		137B6EEB299CD81600DAC906 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B6EEA299CD81600DAC906 /* LocalFeedLoader.swift */; };
+		137B6EED299CD88700DAC906 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B6EEC299CD88700DAC906 /* FeedStore.swift */; };
 		13AD6B7E299626C7006239E6 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F7F8B2994B8C80083D245 /* XCTestCase+MemoryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		134F7F952995E9900083D245 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		137B6EE7299C8E9E00DAC906 /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		137B6EEA299CD81600DAC906 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		137B6EEC299CD88700DAC906 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				137B6EEA299CD81600DAC906 /* LocalFeedLoader.swift */,
+				137B6EEC299CD88700DAC906 /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				134F7F8629913F460083D245 /* FeedItemsMapper.swift in Sources */,
 				13486D0A298CCB2500D5B54E /* FeedLoader.swift in Sources */,
 				13486D0F298E8EB900D5B54E /* RemoteFeedLoader.swift in Sources */,
+				137B6EED299CD88700DAC906 /* FeedStore.swift in Sources */,
 				137B6EEB299CD81600DAC906 /* LocalFeedLoader.swift in Sources */,
 				134F7F8429913ED80083D245 /* HTTPClient.swift in Sources */,
 				13486D08298CC9F000D5B54E /* FeedItem.swift in Sources */,
