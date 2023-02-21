@@ -30,6 +30,7 @@
 		13ABCF5A29A36F93000C5042 /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABCF5929A36F93000C5042 /* ValidateFeedCacheUseCaseTests.swift */; };
 		13ABCF5C29A374D5000C5042 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABCF5B29A374D5000C5042 /* FeedCacheTestHelpers.swift */; };
 		13ABCF5E29A3753E000C5042 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABCF5D29A3753E000C5042 /* SharedTestHelpers.swift */; };
+		13ABCF6029A4D83B000C5042 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABCF5F29A4D83B000C5042 /* FeedCachePolicy.swift */; };
 		13AD6B7E299626C7006239E6 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F7F8B2994B8C80083D245 /* XCTestCase+MemoryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		13ABCF5929A36F93000C5042 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		13ABCF5B29A374D5000C5042 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		13ABCF5D29A3753E000C5042 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		13ABCF5F29A4D83B000C5042 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				137B6EEA299CD81600DAC906 /* LocalFeedLoader.swift */,
 				137B6EEC299CD88700DAC906 /* FeedStore.swift */,
 				137B6EF0299E23E900DAC906 /* LocalFeedImage.swift */,
+				13ABCF5F29A4D83B000C5042 /* FeedCachePolicy.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				134F7F8629913F460083D245 /* FeedItemsMapper.swift in Sources */,
 				13486D0A298CCB2500D5B54E /* FeedLoader.swift in Sources */,
 				137B6EEF299E23B100DAC906 /* RemoteFeedItem.swift in Sources */,
+				13ABCF6029A4D83B000C5042 /* FeedCachePolicy.swift in Sources */,
 				13486D0F298E8EB900D5B54E /* RemoteFeedLoader.swift in Sources */,
 				137B6EF1299E23E900DAC906 /* LocalFeedImage.swift in Sources */,
 				137B6EED299CD88700DAC906 /* FeedStore.swift in Sources */,
