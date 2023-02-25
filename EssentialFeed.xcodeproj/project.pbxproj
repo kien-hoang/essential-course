@@ -42,6 +42,7 @@
 		13BE1DA129AA330000A34D24 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE1DA029AA330000A34D24 /* CoreDataFeedStoreTests.swift */; };
 		13BE1DA429AA3C6F00A34D24 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE1DA229AA333D00A34D24 /* CoreDataFeedStore.swift */; };
 		13BE1DA729AA3D2300A34D24 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13BE1DA529AA3D2300A34D24 /* FeedStore.xcdatamodeld */; };
+		13BE1DAC29AA6FA800A34D24 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE1DAB29AA6FA800A34D24 /* CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		13BE1DA029AA330000A34D24 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		13BE1DA229AA333D00A34D24 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 		13BE1DA629AA3D2300A34D24 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
+		13BE1DAB29AA6FA800A34D24 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				13BE1DA229AA333D00A34D24 /* CoreDataFeedStore.swift */,
+				13BE1DAB29AA6FA800A34D24 /* CoreDataHelpers.swift */,
 				13BE1DA529AA3D2300A34D24 /* FeedStore.xcdatamodeld */,
 			);
 			path = CoreData;
@@ -426,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BE1DAC29AA6FA800A34D24 /* CoreDataHelpers.swift in Sources */,
 				134F7F8629913F460083D245 /* FeedItemsMapper.swift in Sources */,
 				13486D0A298CCB2500D5B54E /* FeedLoader.swift in Sources */,
 				137B6EEF299E23B100DAC906 /* RemoteFeedItem.swift in Sources */,
