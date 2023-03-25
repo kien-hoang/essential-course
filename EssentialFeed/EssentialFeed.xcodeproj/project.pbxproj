@@ -24,6 +24,7 @@
 		135160D529CEF6330011FFCA /* UIRefreshControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135160D429CEF6330011FFCA /* UIRefreshControl+TestHelpers.swift */; };
 		135160D729CEF6760011FFCA /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135160D629CEF6760011FFCA /* UIButton+TestHelpers.swift */; };
 		135160D929CEF6A80011FFCA /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135160D829CEF6A80011FFCA /* UIControl+TestHelpers.swift */; };
+		135160DF29CEF79F0011FFCA /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135160DE29CEF79F0011FFCA /* FeedViewController+TestHelpers.swift */; };
 		13708A7229BCC01C0093EE9E /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13708A6A29BCC01B0093EE9E /* EssentialFeediOS.framework */; };
 		13708A8029BCD9CB0093EE9E /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13708A7F29BCD9CB0093EE9E /* FeedViewControllerTests.swift */; };
 		13708A8229BCDCB10093EE9E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13486CEF298CC9BD00D5B54E /* EssentialFeed.framework */; platformFilter = ios; };
@@ -134,6 +135,7 @@
 		135160D429CEF6330011FFCA /* UIRefreshControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		135160D629CEF6760011FFCA /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
 		135160D829CEF6A80011FFCA /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
+		135160DE29CEF79F0011FFCA /* FeedViewController+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController+TestHelpers.swift"; sourceTree = "<group>"; };
 		13708A6A29BCC01B0093EE9E /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13708A7129BCC01B0093EE9E /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13708A7F29BCD9CB0093EE9E /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
@@ -341,6 +343,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		135160DC29CEF78F0011FFCA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				135160DD29CEF7950011FFCA /* Helpers */,
+				13708A7F29BCD9CB0093EE9E /* FeedViewControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		135160DD29CEF7950011FFCA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				135160DE29CEF79F0011FFCA /* FeedViewController+TestHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		13708A6B29BCC01B0093EE9E /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,7 +373,7 @@
 			isa = PBXGroup;
 			children = (
 				135160D129CEF5AF0011FFCA /* Helpers */,
-				13708A7F29BCD9CB0093EE9E /* FeedViewControllerTests.swift */,
+				135160DC29CEF78F0011FFCA /* Controllers */,
 			);
 			path = EssentialFeediOSTests;
 			sourceTree = "<group>";
@@ -755,6 +774,7 @@
 				135160D729CEF6760011FFCA /* UIButton+TestHelpers.swift in Sources */,
 				135160D529CEF6330011FFCA /* UIRefreshControl+TestHelpers.swift in Sources */,
 				135160D929CEF6A80011FFCA /* UIControl+TestHelpers.swift in Sources */,
+				135160DF29CEF79F0011FFCA /* FeedViewController+TestHelpers.swift in Sources */,
 				13708A8729BCDD590093EE9E /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				135160D329CEF5CB0011FFCA /* UIImage+TestHelpers.swift in Sources */,
 			);
