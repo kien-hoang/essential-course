@@ -324,12 +324,28 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		13708A6B29BCC01B0093EE9E /* EssentialFeediOS */ = {
+		135160DA29CEF7340011FFCA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				13708A8829BD81160093EE9E /* FeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		135160DB29CEF73A0011FFCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				13708A8A29BDB04F0093EE9E /* FeedImageCell.swift */,
 				13708A8C29BF68400093EE9E /* UIView+Shimmering.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13708A6B29BCC01B0093EE9E /* EssentialFeediOS */ = {
+			isa = PBXGroup;
+			children = (
+				135160DA29CEF7340011FFCA /* Controllers */,
+				135160DB29CEF73A0011FFCA /* Views */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
