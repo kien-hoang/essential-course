@@ -369,11 +369,19 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		13708A6B29BCC01B0093EE9E /* EssentialFeediOS */ = {
+		135160E629CEFCA30011FFCA /* Feed UI */ = {
 			isa = PBXGroup;
 			children = (
 				135160DA29CEF7340011FFCA /* Controllers */,
 				135160DB29CEF73A0011FFCA /* Views */,
+			);
+			path = "Feed UI";
+			sourceTree = "<group>";
+		};
+		13708A6B29BCC01B0093EE9E /* EssentialFeediOS */ = {
+			isa = PBXGroup;
+			children = (
+				135160E629CEFCA30011FFCA /* Feed UI */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
