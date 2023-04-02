@@ -71,6 +71,7 @@
 		13BE1DBF29ABB72300A34D24 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F7F8B2994B8C80083D245 /* XCTestCase+MemoryLeakTracking.swift */; };
 		13BE1DC029ABBE2D00A34D24 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABCF5B29A374D5000C5042 /* FeedCacheTestHelpers.swift */; };
 		13BE1DC129ABBE3A00A34D24 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABCF5D29A3753E000C5042 /* SharedTestHelpers.swift */; };
+		13D5965D29D96E2B0029ADC3 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5965C29D96E2B0029ADC3 /* FeedPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		13BE1DAF29AA703A00A34D24 /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
 		13BE1DB529AA71FE00A34D24 /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BE1DB729AA71FE00A34D24 /* EssentialFeedCacheIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedCacheIntegrationTests.swift; sourceTree = "<group>"; };
+		13D5965C29D96E2B0029ADC3 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +414,7 @@
 		135FC49329D32F0F0092227F /* Feed Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				13D5965C29D96E2B0029ADC3 /* FeedPresenter.swift */,
 				135FC49429D32F1C0092227F /* FeedViewModel.swift */,
 				135FC4BA29D5CB840092227F /* FeedImageViewModel.swift */,
 			);
@@ -819,6 +822,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D5965D29D96E2B0029ADC3 /* FeedPresenter.swift in Sources */,
 				135160E929CEFCF70011FFCA /* FeedImageDataLoader.swift in Sources */,
 				135160EB29CEFEDA0011FFCA /* FeedRefreshViewController.swift in Sources */,
 				13708A8D29BF68400093EE9E /* UIView+Shimmering.swift in Sources */,
@@ -1151,7 +1155,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1183,7 +1187,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1210,7 +1214,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36BF9P9PDN;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1236,7 +1240,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36BF9P9PDN;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
