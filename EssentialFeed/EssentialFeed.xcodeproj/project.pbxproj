@@ -186,6 +186,7 @@
 		139574ED29E45FF1006331EA /* FeedViewControllerTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Localization.swift"; sourceTree = "<group>"; };
 		139574F129E4613D006331EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		139574F329E461AB006331EA /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
+		139574F429E461FC006331EA /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		13ABCF5429A0A6D7000C5042 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		13ABCF5729A0A7D5000C5042 /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
 		13ABCF5929A36F93000C5042 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
@@ -716,6 +717,7 @@
 				en,
 				Base,
 				"pt-BR",
+				el,
 			);
 			mainGroup = 13486CE5298CC9BD00D5B54E;
 			productRefGroup = 13486CF0298CC9BD00D5B54E /* Products */;
@@ -922,6 +924,7 @@
 			children = (
 				139574F129E4613D006331EA /* en */,
 				139574F329E461AB006331EA /* pt-BR */,
+				139574F429E461FC006331EA /* el */,
 			);
 			name = Feed.strings;
 			sourceTree = "<group>";
