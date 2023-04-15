@@ -5,7 +5,7 @@
 //  Created by Bradley Hoang on 15/04/2023.
 //
 
-import Foundation
+import UIKit
 
 final class WeakRefVirtualProxy<T: AnyObject> {
     private weak var object: T?
